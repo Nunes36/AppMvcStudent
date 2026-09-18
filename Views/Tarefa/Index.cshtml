@@ -1,0 +1,27 @@
+﻿@model IEnumerable<AppMvc.Models.Tarefa>
+@{
+	ViewData["Title"] = "Tarefas";
+}
+
+<h1> Tarefas </h1>
+
+<table>
+	<thead>
+		<tr>
+			<th>Titulo</th>
+			<th>Status</th>
+		</tr>
+	</thead>
+		<tbody>
+			@foreach(var item in Model) {
+				<tr>
+					<td>
+						@item.Title
+					</td>
+					<td>
+						@item.IsCompleted
+					</td>
+				</tr>
+			}
+		</tbody>
+</table>

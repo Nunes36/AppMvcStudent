@@ -1,0 +1,12 @@
+﻿@model AppMvc.Models.Tarefa
+@{
+}
+
+<h1>Cadastrar Tarefa</h1>
+
+<form asp-action="Create"method="post">
+	<label>Insira a Tarefa</label>
+	<input asp-for="Title" type="text"/>
+	<input asp-for="IsCompleted" type="checkbox" />
+	<button type="submit">Cadastrar</button>
+</form>

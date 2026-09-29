@@ -1,0 +1,26 @@
+1. #Todo List - ASP.NET Core MVC
+
+2.  Principais Funcionalidades
+
+  - Listagem dinâmica de tarefas vindas do banco de dados.
+  - Criação de novas Tarefas através de formulários de dados
+  - Redirecionamento e fluxo de navegação web.
+
+3. Tecnologias Utilizadas
+  - .NET 10
+  - ASP.NET Core MVC
+  - Entity Framework Core
+  - SQL Server
+
+4. Lições Aprendidas
+  - Resoluções de Conflitos de versões de pacotes antigos no Entity Framework.
+  - Iplementação do padrão de Injeção de Dependência para comunicação segura com o banco de dados.
+  - Correção de rotas e separação de conceitos entre Razor PAges e arquitetura MVC Tradicional.
+5. Como Rodar o Projeto na Minha Máquina
+
+  - Clonar o repositório.
+  - Configurar a string de conexão no appsettings.json para o SQL Server local.
+  - Rodar o comando dotnet ef database update para gerar o banco automaticamente.
+  - Executar dotnet run para abrir o navegador.
+
+    
